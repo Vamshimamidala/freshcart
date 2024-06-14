@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 10px;
+    margin: 0;
+}
+header{
+    padding: 10px 0;
+    
+}
+.head{
+    padding: 0px;
+}
+.logo{
+    width: 30%;
+}
+header {
+    background-color: #f6f7f6;
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+}
+
+.logo img {
+    height: 50px;
+    float: left;
+    margin-left: 15px;
+}
+
+.nav {
+     text-align: center;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.nav ul li a {
+    color: rgb(141, 36, 36);
+    text-decoration: none;
+    font-weight: bold;
+}
+.main{
+    padding: 10% 10%;
+    text-align: center;
+    animation: anim 25s infinite;
+    background-size: cover;
+    width: 100%;
+    border-radius: 10px;
+    border: 10px solid white;
+    box-shadow: 3px;
+}
+@keyframes anim{
+    40% { background-image: url(cart1.jpeg);}
+    60%{ background-image:  url(images.jpeg);}
+    100%{ background-image: url(images\ \(1\).jpeg);}
+}
+.arrival{
+    width: 100%;
+    clear: both;
+    display: table;
+    transition: 2s;
+}
+.arrivales{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.deals{
+    clear: both;
+    display: table;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+.deal{
+    border: 3px solid rgb(212, 20, 20);
+    text-align: right;   
+    width: 30%;  
+    height: auto;
+    float: left;
+}
+.Product{
+    width: 100%;
+    clear: both;
+    display: table;
+    transition: 2s;
+    padding: 10px;
+}
+.prod{ 
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.dishes{
+    width: 100%;
+    clear: both;
+    display: table;
+}
+.dish{
+    width: 25%;
+    float: left;
+    padding: 10px;
+}
+.dish img{
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+.dish img:hover{
+    transform: scale(1.1); 
+}
